@@ -22,3 +22,7 @@ Resources:
         -
           Key: Icon
           Value: Ready
+          
+        -
+          Key: Done
+          Value: Ready
