@@ -30,3 +30,7 @@ Resources:
         -
           Key: Grow
           Value: Good
+          
+        -
+          Key: Get
+          Value: Post
