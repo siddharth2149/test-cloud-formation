@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  WebInstance:
+    Type: AWS::EC2::Instance
+    DeletionPolicy: Retain
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0756a1c858554433e
+      KeyName: siddharth
+      SecurityGroupIds:
+        - sg-0df607dbf8e3f2889
+      Tags:
+        -
+          Key: Name
+          Value: test
+          
+        -
+          Key: Environment
+          Value: Worms
+
+
+        -
+          Key: Icon
+          Value: Ready
